@@ -21,3 +21,7 @@ height = document.getElementById("winH").textContent + window.innerHeight;
 //console.log(`str14 is ${str14}`);
 document.getElementById("winW").textContent = width;
 document.getElementById("winH").textContent = height;
+function reload() {
+  window.location.reload();
+  console.log(pressed);
+}
