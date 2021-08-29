@@ -23,4 +23,5 @@ document.getElementById("winW").textContent = width;
 document.getElementById("winH").textContent = height;
 function reload() {
   window.location.reload();
+  console.log(pressed);
 }
