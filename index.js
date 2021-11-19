@@ -19,5 +19,16 @@ height = document.getElementById("winH").textContent + window.innerHeight;
 // document.getElementById("t53h").textContent = 3;
 // console.log(document.getElementById("t52w").innerHTML);
 //console.log(`str14 is ${str14}`);
+<<<<<<< HEAD
 document.getElementById("winW").textContent = width;
 document.getElementById("winH").textContent = height;
+=======
+console.log(thisDate.toString());
+document.getElementById("theDate").textContent += thisDate.toString();
+document.getElementById("winW").textContent = width;
+document.getElementById("winH").textContent = height;
+function reload() {
+  window.location.reload();
+  console.log(pressed);
+}
+>>>>>>> 0c01daaf0af1a6bcc5e768f376c5beb96aa68708
